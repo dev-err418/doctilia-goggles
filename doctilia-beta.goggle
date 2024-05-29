@@ -1,0 +1,10 @@
+! name: Doctilia Beta v1
+! description: Rerank results to boost Ameli, Vidal, Sante.gouv and ANSM
+! public: true
+! author: Arthur Spalanzani
+
+$discard
+$site=ameli.fr,boost=2
+$site=vidal.fr,boost=2
+$site=sante.gouv.fr,boost=2
+$site=ansm.sante.fr,boost=2
