@@ -7,4 +7,4 @@ $discard
 $site=ameli.fr,boost=2
 $site=vidal.fr,boost=2
 $site=sante.gouv.fr,boost=2
-$site=ansm.sante.fr,boost=2
+$site=recomedicales.fr,boost=2
