@@ -1,0 +1,9 @@
+! name: Doctilia Beta v1 en
+! description: Rerank results to boost NIH, CDC, medlineplus
+! public: true
+! author: Arthur Spalanzani
+
+$discard
+$site=cdc.gov,boost=2
+$site=nih.gov,boost=2
+$site=medlineplus.gov,boost=2
