@@ -1,0 +1,7 @@
+! name: GfK
+! description: Rerank pages jaunes
+! public: true
+! author: Arthur Spalanzani
+
+$discard
+$site=pagejaunes.fr,boost=2
