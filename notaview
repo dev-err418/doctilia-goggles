@@ -1,35 +1,27 @@
-! name: French Medical Search
-! description: Prioritizes French medical and healthcare sources for medical queries
+! name: Notaview Medical Search
+! description: Rerank results to boost French medical and healthcare authorities
 ! public: false
-! author: Notaview
-! homepage: https://notaview.fr
+! author: Arthur Spalanzani
 
-$boost=10,site:has-sante.fr
-$boost=10,site:ansm.sante.fr
-$boost=10,site:ameli.fr
-$boost=10,site:sante.gouv.fr
-
-$boost=10,site:inserm.fr
-$boost=10,site:pasteur.fr
-$boost=10,site:chu-toulouse.fr
-$boost=10,site:aphp.fr
-
-$boost=10,site:srlf.org
-$boost=10,site:sfar.org
-$boost=10,site:sfdermato.org
-$boost=10,site:splf.fr
-$boost=10,site:sfcardio.fr
-$boost=10,site:snfge.org
-$boost=10,site:sfe-endocrino.fr
-$boost=10,site:rhumatologie.asso.fr
-$boost=10,site:infectiologie.com
-
-$boost=7,site:cochrane.org
-
-$boost=10,site:em-consulte.com
-$boost=10,site:vidal.fr
-$boost=10,site:base-donnees-publique.medicaments.gouv.fr
-
-$downrank=3,site:wikipedia.org
-
-$boost=2,lang:fr
+$discard
+$site=has-sante.fr,boost=10
+$site=ansm.sante.fr,boost=10
+$site=ameli.fr,boost=10
+$site=sante.gouv.fr,boost=10
+$site=inserm.fr,boost=10
+$site=pasteur.fr,boost=10
+$site=chu-toulouse.fr,boost=10
+$site=aphp.fr,boost=10
+$site=srlf.org,boost=10
+$site=sfar.org,boost=10
+$site=sfdermato.org,boost=10
+$site=splf.fr,boost=10
+$site=sfcardio.fr,boost=10
+$site=snfge.org,boost=10
+$site=sfe-endocrino.fr,boost=10
+$site=rhumatologie.asso.fr,boost=10
+$site=infectiologie.com,boost=10
+$site=cochrane.org,boost=10
+$site=em-consulte.com,boost=10
+$site=vidal.fr,boost=10
+$site=base-donnees-publique.medicaments.gouv.fr,boost=10
