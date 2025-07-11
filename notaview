@@ -4,19 +4,16 @@
 ! author: Notaview
 ! homepage: https://notaview.fr
 
-# Boost official French health authorities (highest priority)
 $boost=10,site:has-sante.fr
 $boost=10,site:ansm.sante.fr
 $boost=10,site:ameli.fr
 $boost=10,site:sante.gouv.fr
 
-# Boost major French medical institutions
 $boost=10,site:inserm.fr
 $boost=10,site:pasteur.fr
 $boost=10,site:chu-toulouse.fr
 $boost=10,site:aphp.fr
 
-# Boost French medical societies and organizations
 $boost=10,site:srlf.org
 $boost=10,site:sfar.org
 $boost=10,site:sfdermato.org
@@ -27,16 +24,12 @@ $boost=10,site:sfe-endocrino.fr
 $boost=10,site:rhumatologie.asso.fr
 $boost=10,site:infectiologie.com
 
-# Boost international medical evidence sources
 $boost=7,site:cochrane.org
 
-# Boost French medical databases and resources
 $boost=10,site:em-consulte.com
 $boost=10,site:vidal.fr
 $boost=10,site:base-donnees-publique.medicaments.gouv.fr
 
-# Demote general encyclopedic content that may not be medical-specific
 $downrank=3,site:wikipedia.org
 
-# Boost French language medical content
 $boost=2,lang:fr
